@@ -1,0 +1,77 @@
+#app{
+    min-height: 100vh;
+}
+
+.navbar-background{
+    background-color: rgb(0, 0, 0) !important;
+}
+.nav-link{
+    color: whitesmoke !important;
+}
+
+
+.nav-item:hover{
+    background-color: rgba(78, 77, 77, 0.655);
+}
+ 
+
+.table-contact{
+    margin-top: 100px;
+}
+
+.nav1{
+    background-color: #000;
+}
+
+
+
+.footer-background{
+    width:100%;
+    background-color: rgb(7, 7, 7) !important;   
+    margin-top: 90px;
+    inset: auto 0px 0px;
+    max-width: 100%;
+    position: fixed;
+    padding: 5px;
+    color: white;
+    z-index: 99999;
+}
+
+body{
+    
+    background: linear-gradient(
+    210deg,
+    rgb(176, 128, 234) 27%,
+    rgb(229, 160, 235) 68%);
+}
+
+.justify-content-center{
+    opacity: 100%;
+    border-radius: 30px 30px 30px 30px;
+    opacity: 90%;
+    margin-top: 70px;
+    margin-bottom: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.col{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 9px -6px 14px 3px rgba(66, 68, 90, 0.48);
+    -moz-box-shadow: 9px -6px 14px 3px rgba(66, 68, 90, 0.48);
+    box-shadow: 9px -6px 14px 3px rgba(66, 68, 90, 0.48);
+}
+
+@media(min-width: 992px){
+    .navbar-nav{
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+
+.resp-navbar-btn{
+    background-color: #fff;
+}

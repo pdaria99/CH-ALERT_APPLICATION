@@ -1,0 +1,29 @@
+<div class="container mt-5 mb-5 text-center">
+    <h1 id="personal_data" class="mb-3"></h1>
+    <img id="photo_name" class="mb-3" style="max-width: 300px;" />
+    <p id="information" class="mb-3"></p>
+    <div id="map" style="height: 300px;" class="mb-5"></div>
+
+    <button class="btn btn-secondary mb-5" id="show_add_request_btn">Dodaj zgłoszenie</button>
+
+    <form class="row justify-content-center" id="add_request_container" style="display: none;">
+        <div class="col-md-6 col">
+            <div class="alert alert-danger" role="alert" id="errors_list" style="display: none;">
+                A simple danger alert—check it out!
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Opis:</label>
+                <textarea class="form-control" name="description" placeholder="Opis"></textarea>
+            </div>
+            <div class="mb-3">
+                <div id="click_map" style="height: 300px;"></div>
+                <input type="hidden" name="lat" />
+                <input type="hidden" name="lng" />
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-secondary">
+                    Wyślij zgłoszenie
+                </button>
+            </div>
+    </form>
+</div>

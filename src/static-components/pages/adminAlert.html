@@ -1,0 +1,41 @@
+<div class="container mt-5">
+  <form class="row justify-content-center">
+    <div class="col-md-6 col">
+      <div class="alert alert-danger" role="alert" id="create_alert_error" style="display: none;">
+        A simple danger alert—check it out!
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Imię i nazwisko zaginionego:</label>
+        <input
+          type="text"
+          class="form-control"
+          name="personaldata"
+        />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Opis i okoliczności zaginięcia:</label>
+        <textarea
+          type="text"
+          class="form-control"
+          name="information"
+        ></textarea>
+      </div>
+      <div class="mb-3">
+          <label class="form-label">Wczytaj zdjęcie zaginionego:</label>
+          <input class="form-control" type="file" name="photo" accept="image/*">
+        </div>
+      
+        <div class="mb-3">
+          <label class="form-label">Miejsce zaginięcia:</label>
+          <div id="map" style="height: 300px; "></div>
+          <p id="register_coords"></p>
+          <input type="hidden" name="lat" />
+          <input type="hidden" name="lng" />
+        </div>
+      
+      <div class="mb-3">
+        <button class="btn btn-secondary form-btn">Wyślij alert do użytkowników</button>
+      </div>
+    </div>
+  </form>
+</div>
