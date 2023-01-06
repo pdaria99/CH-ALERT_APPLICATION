@@ -109,7 +109,7 @@ export default class AddAlertController{
 
         document.getElementById('app').querySelector('form').addEventListener('submit', this.sendAlert)
 
-        mapboxgl.accessToken = 'pk.eyJ1IjoibWlrcmEyNSIsImEiOiJja3AybGJpcDcxZnIwMndueHlxOGhqbXdrIn0.0302zXfI3PmlgcS4ICmOAA';
+        mapboxgl.accessToken = 'xxxxxxxxxxxxxxxxxxxxxxxxx';
         this.clickedMap = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/mapbox/streets-v11',
